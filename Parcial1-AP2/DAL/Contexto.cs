@@ -11,9 +11,9 @@ namespace Parcial1_AP2.DAL
     {
         public DbSet<Productos> Productos { get; set; }
 
-        public Contexto(DbContextOptions<Contexto> options) : base(options)
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-
+            optionsBuilder.UseSqlite(@"Data Sourse= Inventario.db");
         }
     }
 }
