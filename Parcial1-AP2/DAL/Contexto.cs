@@ -7,5 +7,6 @@ namespace Parcial1_AP2.DAL
 {
     public class Contexto
     {
+
     }
 }
