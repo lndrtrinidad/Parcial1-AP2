@@ -8,7 +8,6 @@ namespace Parcial1_AP2.Models
 {
     public class Productos
     {
-        [key]
         public int ProductoId { get; set; }
         public string Descripccion { get; set; }
         public int Existencia { get; set; }
