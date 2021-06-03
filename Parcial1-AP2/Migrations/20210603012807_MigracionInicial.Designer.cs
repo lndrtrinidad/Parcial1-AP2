@@ -8,8 +8,8 @@ using Parcial1_AP2.DAL;
 namespace Parcial1_AP2.Migrations
 {
     [DbContext(typeof(Contexto))]
-    [Migration("20210602233046_Inicial")]
-    partial class Inicial
+    [Migration("20210603012807_MigracionInicial")]
+    partial class MigracionInicial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
