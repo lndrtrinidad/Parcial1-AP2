@@ -24,7 +24,7 @@ namespace Parcial1_AP2.BLL
 
             try
             {
-                pass = await contexto.Productos.AddAsync(a => a.ProductoId == id);
+                pass = await contexto.Productos.AnyAsync(a => a.ProductoId == id);
             }
             catch
             {

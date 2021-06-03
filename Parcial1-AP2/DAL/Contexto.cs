@@ -13,7 +13,7 @@ namespace Parcial1_AP2.DAL
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlite(@"Data Sourse= Inventario.db");
+            optionsBuilder.UseSqlite(@"Data Sourse = Inventario.db");
         }
     }
 }
